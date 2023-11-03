@@ -2,7 +2,7 @@
 # Follow these steps to run this project locally:
 
 1. # Clone the Repository:
-   git clone https://github.com/Saksham2k3s/DevtownTask
+   git clone https://github.com/your-username/your-repo.git
 
 2. # Navigate to the Project Directory:
    cd your-repo
