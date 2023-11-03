@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Ubuntu:ital@1&display=swap');
+body{
+  font-family: 'Noto Serif', serif;
+}
+.card img{
+  height: 200px;
+  width: 100%;
+}
+.card{
+  border: 2px solid gray;
+  border-radius: 6px;
+
+}
+.card-title{
+  font-weight: 300;
+}
+
+@media(max-width:768px){
+  .card-title{
+font-size: 15px;
+  }
+  .card-text{
+    text-align: justify;
+    font-size: 12px;
+  }
+}
+.pagination button{
+  background-color: #cac9c9;
+  font-size: 20px;
+  color: black;
+  border-radius: 4px;
+}
+
+
+.filter button{
+  background-color: #FF5E0F;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+.filter .btn-yellow{
+  background-color: #d7c508;
+  color: black;
+  border: none;
+  border-radius: 10px;
+}
+
+@media(max-width:768px){
+  .mobilebtn{
+    display: flex;
+    font-size: 10px !important;
+  }
+}
+
+/* Select by category modal */
+
+.modal-body ul li button{
+ 
+  font-size: 20px;
+  color: black ;
+  border: none;
+}
+.modal-body ul li button:hover{
+  color: #FF5E0F;
+}
+.close{
+  background-color: transparent;
+  border: none;
+}
+
+.dropdown{
+  border: none;
+  background-color: transparent;
+}
+
+.dropdown button{
+  border-radius: 10px;
+  border: none;
+  background-color: #ffb810 !important;
+  color: #000;
+}
+
+.dropdown-item{
+  background-color: transparent;
+  color: #000!important;
+}
+
