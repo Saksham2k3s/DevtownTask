@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Ubuntu:ital@1&display=swap');
+body{
+  font-family: 'Noto Serif', serif;
+}
+.card img{
+  height: 200px;
+  width: 100%;
+}
+.card{
+  border: 2px solid gray;
+  border-radius: 6px;
+
+}
+.card-title{
+  font-weight: 300;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media(max-width:768px){
+  .card-title{
+font-size: 15px;
+  }
+  .card-text{
+    text-align: justify;
+    font-size: 12px;
   }
 }
+.pagination button{
+  background-color: #cac9c9;
+  font-size: 20px;
+  color: black;
+  border-radius: 4px;
+}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+.filter button{
+  background-color: #FF5E0F;
   color: white;
+  border: none;
+  border-radius: 10px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+.filter .btn-yellow{
+  background-color: #d7c508;
+  color: black;
+  border: none;
+  border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+@media(max-width:768px){
+  .mobilebtn{
+    display: flex;
+    font-size: 10px !important;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Select by category modal */
+
+.modal-body ul li button{
+ 
+  font-size: 20px;
+  color: black ;
+  border: none;
 }
+.modal-body ul li button:hover{
+  color: #FF5E0F;
+}
+.close{
+  background-color: transparent;
+  border: none;
+}
+
+.dropdown{
+  border: none;
+  background-color: transparent;
+}
+
+.dropdown button{
+  border-radius: 10px;
+  border: none;
+  background-color: #ffb810 !important;
+  color: #000;
+}
+
+.dropdown-item{
+  background-color: transparent;
+  color: #000!important;
+}
+
