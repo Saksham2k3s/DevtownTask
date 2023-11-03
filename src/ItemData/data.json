@@ -142,6 +142,27 @@
         "description" : "BRITANNIA Treat Jim Jam Cream Sandwich  (138 g)",
         "price" : "32",
         "category" : "Biscuit"
+    },
+    {
+        "imageUrl": "https://rukminim2.flixcart.com/image/416/416/kuczmvk0/cookie-biscuit/3/4/a/g-gold-biscuits-parle-original-imag7hvdfyndrvtx.jpeg?q=70",
+        "title" : "PARLE G Gold",
+        "description" : "PARLE G Gold Biscuits Plain  (1 kg)",
+        "price" : "120",
+        "category" : "Biscuit"
+    },
+    {
+        "imageUrl": "https://rukminim2.flixcart.com/image/416/416/khkvukw0/cookie-biscuit/6/d/x/800-krackjack-parle-original-imafxk72rh9ctrhh.jpeg?q=70",
+        "title" : "PARLE Krackjack",
+        "description" : "PARLE Krackjack Crackers Sweet & Salty  (700 g, Pack of 16)",
+        "price" : "70",
+        "category" : "Biscuit"
+    },
+    {
+        "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/cookie-biscuit/a/h/8/-original-imagzchesg9rzuet.jpeg?q=70",
+        "title" : "BRITANNIA Treat Jim Jam",
+        "description" : "BRITANNIA Treat Jim Jam Cream Sandwich  (138 g)",
+        "price" : "32",
+        "category" : "Biscuit"
     }
 
 ]
