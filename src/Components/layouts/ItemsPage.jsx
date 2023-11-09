@@ -26,6 +26,7 @@ function ItemsPage() {
           <div className=" row">
             <div className="col-md-4"></div>
             <div className="col-md-4 mt-3">
+              {/* Pagination page */}
               <Pagination />
             </div>
             <div className="col-md-4"></div>
